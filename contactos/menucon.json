@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Soporte técnico",
+        "link": "indexsoporte.html"
+    },
+    {
+        "nombre": "Dudas academicas",
+        "link": "indexdudas.html"
+    },
+    {
+        "nombre": "Formulario de preguntas",
+        "link": "indexformulario.html"
+    },
+    {
+        "nombre": "Redes sociales",
+        "link": "indeexredes.html"
+    }
+]

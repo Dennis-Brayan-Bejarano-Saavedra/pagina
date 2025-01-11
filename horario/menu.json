@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Sesiones en vivo",
+        "link": "indexsesiones.html"
+    },
+    {
+        "nombre": "Grabaciones disponibles ",
+        "link": "indexgrabaciones.html"
+    },
+    {
+        "nombre": "Tareas y entregas ",
+        "link": "indextaryent.html"
+    },
+    {
+        "nombre": "Fechas importantes ",
+        "link": "indeexfechasi.html"
+    }
+]

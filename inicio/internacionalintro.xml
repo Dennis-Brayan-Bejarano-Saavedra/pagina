@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+<menu>
+    <item id="Introduccion sobre full stack">
+        <es>Introduccion sobre full stack</es>
+        <en>Introduction to full stack</en>
+        
+    </item>
+</menu>
+<text id="educontenido">
+            <es>"En la era digital en la que vivimos, los cursos online se han convertido en una opción cada vez más popular y 
+                        accesible para aquellas personas que buscan adquirir nuevos conocimientos y habilidades desde la comodidad de 
+                        su hogar. Gracias a la expansión de internet y las plataformas educativas en línea, ahora es posible acceder a 
+                        una amplia variedad de cursos impartidos por expertos de todo el mundo, sin importar la ubicación geográfica o 
+                        el horario. En este sentido, los cursos online ofrecen una oportunidad única para aprender de forma flexible, 
+                        personalizada y a un ritmo adaptado a las necesidades individuales de cada estudiante. En este artículo, exploraremos
+                        los beneficios y posibilidades que brindan los cursos online en el ámbito de la educación y el desarrollo profesional."</es>
+            <en>"In the digital age we live in, online courses have become an increasingly popular and accessible option for those looking to acquire new knowledge and skills from the comfort of their own home. Thanks to the expansion of the Internet and online educational platforms, it is now possible to access a wide variety of courses taught by experts from around the world, regardless of geographic location or time. In this sense, online courses offer a unique opportunity to learn in a flexible, personalized way and at a pace adapted to the individual needs of each student. In this article, we will explore the benefits and possibilities that online courses provide in the field of education and professional development."</en>
+            
+        </text>
+</translations>

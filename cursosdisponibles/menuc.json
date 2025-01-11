@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Lista de cursos ",
+        "link": "indexlistac.html"
+    },
+    {
+        "nombre": "Duración y costos",
+        "link": "indexdurycos.html"
+    },
+    {
+        "nombre": "Material incluido ",
+        "link": "indexmaterial.html"
+    },
+    {
+        "nombre": "Requisitos previos ",
+        "link": "indeexrequisito.html"
+    }
+]

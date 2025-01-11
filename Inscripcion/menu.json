@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Crear Cuenta",
+        "link": "indexcrear.html"
+    },
+    {
+        "nombre": "Elegir Modalidad (Presencial o en linea)",
+        "link": "indexelegir.html"
+    },
+    {
+        "nombre": "Metodos de Pago",
+        "link": "indexpago.html"
+    },
+    {
+        "nombre": "Confirmar Registro",
+        "link": "indexregistro.html"
+    }
+]

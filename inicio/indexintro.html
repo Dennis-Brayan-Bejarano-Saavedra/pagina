@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Cursos online</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--Cabecera-->
+		<header style="background-color: #77091b;
+		                color: white;
+		                padding: 10px;
+		                text-align: center;">
+			<h1>INTRODUCCION</h1>
+			<p>Bienvenido a la pagina de nuestros cursos en linea</p>
+		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Inicio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav" id="menu">
+                        <!--Aqui mi JSON-->
+					</div>
+				</div>
+		        <a href="../02menuxml.html" style=" background-color: #77091b; color: white; text-align: left; text-decoration: none;">volver a la pagina principal</a>
+			</div>
+		</nav>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            const xhr=new XMLHttpRequest();
+			xhr.open("GET", "menu.json", true);
+			xhr.onload = function() {
+                if (xhr.status === 200) {
+                    const menuitems = JSON.parse(xhr.responseText);
+                    let menuHTML="";
+
+                    menuitems.forEach(item => {
+                        menuHTML+=`
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="${item.link}">${item.nombre}</a>
+                            </li>
+                            `;
+                    }); 
+
+                    document.getElementById("menu").innerHTML=menuHTML;
+                }
+                else {
+                    console.error("Error");
+                }
+            };
+            xhr.send();
+        </script><br>
+        
+		<a href="interintro.html" style="background-color: rgb(156, 0, 86); text-decoration: none; color: aliceblue; "> traducir</a>
+        <!--Contenido-->
+        <div>
+            <h2 style="background-color: #d50404; color: white; padding: 2px;">Introduccion sobre full stack</h2>
+             <img src="images/6.jpg" alt="" style="width: 500px; height: 250px; float: left; padding: 15px;">
+            <p>"En la era digital en la que vivimos, los cursos online se han convertido en una opción cada vez más popular y 
+                accesible para aquellas personas que buscan adquirir nuevos conocimientos y habilidades desde la comodidad de 
+                su hogar. Gracias a la expansión de internet y las plataformas educativas en línea, ahora es posible acceder a 
+                una amplia variedad de cursos impartidos por expertos de todo el mundo, sin importar la ubicación geográfica o 
+                el horario. En este sentido, los cursos online ofrecen una oportunidad única para aprender de forma flexible, 
+                personalizada y a un ritmo adaptado a las necesidades individuales de cada estudiante. En este artículo, exploraremos
+                 los beneficios y posibilidades que brindan los cursos online en el ámbito de la educación y el desarrollo profesional."
+            </p><br>
+            <p>Un desarrollador es alguien que trabaja tanto con el front-end como con el back-end de una aplicación web.
+                 El front-end es responsable de la apariencia visual del sitio web, mientras que el back-end es responsable de la 
+                 lógica y la infraestructura detrás de escena del sitio.</p><br>
+                <p>¿Quieres convertirte en un desarrollador Full Stack Web Development y no sabes por dónde empezar? 
+                    Este curso es perfecto para ti. "De Cero a FullStack" está diseñado para llevarte desde los conceptos más básicos 
+                    hasta convertirte en un desarrollador web completo, capaz de crear aplicaciones web modernas y dinámicas.</p>
+        </div>
+		<footer style="background-color: #77091b; color: aliceblue;">
+			<p>@2024 Derechos reservados BOSHOP</p>
+		</footer>
+	</body>
+</html>

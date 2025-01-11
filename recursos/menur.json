@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Material de Estudio",
+        "link": "indexmateriales.html"
+    },
+    {
+        "nombre": "Recursos complementarios",
+        "link": "indexrecursos.html"
+    },
+    {
+        "nombre": "Enlaces útiles ",
+        "link": "indexenlaces.html"
+    },
+    {
+        "nombre": "Consejos de estudio ",
+        "link": "indeexconsejo.html"
+    }
+]

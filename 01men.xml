@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item id="inicio">
+        <nombre>Inicio</nombre>
+        <link>inicio/index.html</link>
+    </item>
+    <item>
+        <nombre>Inscripcion</nombre>
+        <link>Inscripcion/index.html</link>
+    </item>
+    <item>
+        <nombre>Cursos Disponible</nombre>
+        <link>cursosdisponibles/index.html</link>
+    </item>
+    <item>
+        <nombre>Horario</nombre>
+        <link>horario/index.html</link>
+    </item>
+    <item>
+        <nombre>Instructores</nombre>
+        <link>instructores/index.html</link>
+    </item>
+    <item>
+        <nombre>Recursos</nombre>
+        <link>recursos/index.html</link>
+    </item>
+    <item>
+        <nombre>FAQ</nombre>
+        <link>faq/index.html</link>
+    </item>
+    <item>
+        <nombre>Contactos</nombre>
+        <link>Contactos/index.html</link>
+    </item>
+</menu>

@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Introduccion",
+        "link": "indexintro.html"
+    },
+    {
+        "nombre": "Beneficios de inscribirse ",
+        "link": "indexben.html"
+    },
+    {
+        "nombre": "Opiniones de estudiantes",
+        "link": "indexopi.html"
+    },
+    {
+        "nombre": "Noticias",
+        "link": "indeexnoti.html"
+    }
+]

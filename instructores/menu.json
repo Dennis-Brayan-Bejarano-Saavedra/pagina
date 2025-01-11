@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Perfiles de los profesores",
+        "link": "indexperfil.html"
+    },
+    {
+        "nombre": "Experiencia previa",
+        "link": "indexprevia.html"
+    },
+    {
+        "nombre": "Clases destacadas",
+        "link": "indexclases.html"
+    },
+    {
+        "nombre": "Redes profesionales",
+        "link": "indeexredes.html"
+    }
+]

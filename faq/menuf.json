@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Preguntas frecuentes sobre inscripciones",
+        "link": "indexpreguntas.html"
+    },
+    {
+        "nombre": "Politicas de Reembolso ",
+        "link": "indexpoliticas.html"
+    },
+    {
+        "nombre": "Problemas Tecnicos",
+        "link": "indexproblemas.html"
+    },
+    {
+        "nombre": "certificaciones",
+        "link": "indeexcertificaciones.html"
+    }
+]
